@@ -17,6 +17,9 @@ public class CellTest {
         Cell cell = new Cell();
         cell.reproduct();
         assertTrue(cell.isAlive);
+    }
 
+    @Test
+    public void test_cell_dies() {
     }
 }
