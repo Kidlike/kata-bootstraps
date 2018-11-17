@@ -11,4 +11,9 @@ public class CellTest {
         Cell cell = new Cell();
         assertFalse(cell.isAlive);
     }
+
+    @Test
+    public void test_reproduct() {
+        
+    }
 }
