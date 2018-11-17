@@ -8,6 +8,7 @@ public class CellTest {
 
     @Test
     public void test_is_dead() {
-
+        Cell cell = new Cell();
+        assertFalse(cell.isAlive);
     }
 }
